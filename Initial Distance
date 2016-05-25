@@ -1,0 +1,5 @@
+var current location = prompt( “What is your starting address?” );
+var travelTime = prompt(“How long will you be traveling?”);
+var travelSpeed = prompt( “How fast will you be traveling (mph)?”);
+
+var radius = travelTime * travelSpeed;
