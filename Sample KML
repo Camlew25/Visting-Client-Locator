@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Free Map Tools How Far Can I Travel Map</name>
+		<description>Free Map Tools How Far Can I Travel Map</description>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<StyleMap id="msn_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sn_ylw-pushpin">
+			<PolyStyle>
+				<color>7fff0000</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin">
+			<IconStyle>
+				<scale>1.2</scale>
+			</IconStyle>
+			<PolyStyle>
+				<color>7fff0000</color>
+			</PolyStyle>
+		</Style>
+		<open>1</open>
+			<Folder> 
+				<open>0</open>
+				<name>Polygon</name>
+					<Placemark>
+							<name>Polygon</name>
+							<styleUrl>#msn_ylw-pushpin</styleUrl>
+							<Polygon>
+								<tessellate>1</tessellate>
+								<outerBoundaryIs>
+									<LinearRing>
+										<coordinates>-79.21818,40.0424,0 -79.44562,39.991060000000004,0 -80.21224000000001,40.100300000000004,0 -80.29276,40.10464,0 -80.69946,40.149460000000005,0 -80.84341,40.3357,0 -80.84341,40.3357,0 -81.34070000000001,40.69404,0 -81.60227,40.84436,0 -81.71338,40.964960000000005,0 -81.93509,41.100280000000005,0 -81.92056000000001,41.16725,0 -81.96011,41.237700000000004,0 -81.96011,41.237700000000004,0 -82.96246000000001,42.24998,0 -82.96246000000001,42.24998,0 -82.96246000000001,42.24998,0 -82.96246000000001,42.24998,0 -82.7506,42.99392,0 -82.7506,42.99392,0 -82.7506,42.99392,0 -82.7506,42.99392,0 -82.7506,42.99392,0 -82.7506,42.99392,0 -82.7506,42.99392,0 -82.76244000000001,42.99692,0 -81.4423,45.09985,0 -79.64197,45.09875,0 -79.64197,45.09875,0 -79.64197,45.09875,0 -79.64197,45.09875,0 -79.64197,45.09875,0 -79.64197,45.09875,0 -79.63422000000001,45.081030000000005,0 -78.29666,44.945100000000004,0 -78.29666,44.945100000000004,0 -78.26628000000001,44.97464,0 -78.26628000000001,44.97464,0 -75.9414,44.37688000000001,0 -75.72767,44.403940000000006,0 -75.73676,44.39658,0 -75.73676,44.39658,0 -75.73676,44.39658,0 -75.76266000000001,44.3714,0 -75.51476000000001,44.25321,0 -75.50686,44.25361,0 -75.08046,43.66058,0 -74.63893,43.382810000000006,0 -74.63893,43.382810000000006,0 -74.474,42.89867,0 -74.42660000000001,42.761070000000004,0 -74.42660000000001,42.761070000000004,0 -74.49205,42.75677,0 -74.81001,42.472260000000006,0 -74.85344,42.20749,0 -74.89969,42.035900000000005,0 -74.89969,42.035900000000005,0 -75.40162000000001,41.703340000000004,0 -75.41447000000001,41.69116,0 -76.2047,40.979850000000006,0 -76.35535,40.725860000000004,0 -76.35535,40.725860000000004,0 -76.35019000000001,40.720060000000004,0 -76.76191,40.569480000000006,0 -77.7651,40.13046000000001,0 -77.7651,40.13046000000001,0 -77.89284,40.07757,0 -78.02426000000001,40.03134,0 -78.02426000000001,40.03134,0 -78.59238,40.00359,0 </coordinates>
+									</LinearRing>
+								</outerBoundaryIs>
+							</Polygon>
+						</Placemark>
+						
+				</Folder>
+				<Folder> 
+					<open>0</open>
+					<name>End Points</name>
+					<Placemark><name>0</name><Point><coordinates>-74.42660000000001,42.761070000000004,0</coordinates></Point></Placemark><Placemark><name>1</name><Point><coordinates>-74.49205,42.75677,0</coordinates></Point></Placemark><Placemark><name>2</name><Point><coordinates>-74.81001,42.472260000000006,0</coordinates></Point></Placemark><Placemark><name>3</name><Point><coordinates>-74.85344,42.20749,0</coordinates></Point></Placemark><Placemark><name>4</name><Point><coordinates>-74.89969,42.035900000000005,0</coordinates></Point></Placemark><Placemark><name>5</name><Point><coordinates>-74.89969,42.035900000000005,0</coordinates></Point></Placemark><Placemark><name>6</name><Point><coordinates>-75.40162000000001,41.703340000000004,0</coordinates></Point></Placemark><Placemark><name>7</name><Point><coordinates>-75.41447000000001,41.69116,0</coordinates></Point></Placemark><Placemark><name>8</name><Point><coordinates>-76.2047,40.979850000000006,0</coordinates></Point></Placemark><Placemark><name>9</name><Point><coordinates>-76.35535,40.725860000000004,0</coordinates></Point></Placemark><Placemark><name>10</name><Point><coordinates>-76.35535,40.725860000000004,0</coordinates></Point></Placemark><Placemark><name>11</name><Point><coordinates>-76.35019000000001,40.720060000000004,0</coordinates></Point></Placemark><Placemark><name>12</name><Point><coordinates>-76.76191,40.569480000000006,0</coordinates></Point></Placemark><Placemark><name>13</name><Point><coordinates>-77.7651,40.13046000000001,0</coordinates></Point></Placemark><Placemark><name>14</name><Point><coordinates>-77.7651,40.13046000000001,0</coordinates></Point></Placemark><Placemark><name>15</name><Point><coordinates>-77.89284,40.07757,0</coordinates></Point></Placemark><Placemark><name>16</name><Point><coordinates>-78.02426000000001,40.03134,0</coordinates></Point></Placemark><Placemark><name>17</name><Point><coordinates>-78.02426000000001,40.03134,0</coordinates></Point></Placemark><Placemark><name>18</name><Point><coordinates>-78.59238,40.00359,0</coordinates></Point></Placemark><Placemark><name>19</name><Point><coordinates>-79.21818,40.0424,0</coordinates></Point></Placemark><Placemark><name>20</name><Point><coordinates>-79.44562,39.991060000000004,0</coordinates></Point></Placemark><Placemark><name>21</name><Point><coordinates>-80.21224000000001,40.100300000000004,0</coordinates></Point></Placemark><Placemark><name>22</name><Point><coordinates>-80.29276,40.10464,0</coordinates></Point></Placemark><Placemark><name>23</name><Point><coordinates>-80.69946,40.149460000000005,0</coordinates></Point></Placemark><Placemark><name>24</name><Point><coordinates>-80.84341,40.3357,0</coordinates></Point></Placemark><Placemark><name>25</name><Point><coordinates>-80.84341,40.3357,0</coordinates></Point></Placemark><Placemark><name>26</name><Point><coordinates>-81.34070000000001,40.69404,0</coordinates></Point></Placemark><Placemark><name>27</name><Point><coordinates>-81.60227,40.84436,0</coordinates></Point></Placemark><Placemark><name>28</name><Point><coordinates>-81.71338,40.964960000000005,0</coordinates></Point></Placemark><Placemark><name>29</name><Point><coordinates>-81.93509,41.100280000000005,0</coordinates></Point></Placemark><Placemark><name>30</name><Point><coordinates>-81.92056000000001,41.16725,0</coordinates></Point></Placemark><Placemark><name>31</name><Point><coordinates>-81.96011,41.237700000000004,0</coordinates></Point></Placemark><Placemark><name>32</name><Point><coordinates>-81.96011,41.237700000000004,0</coordinates></Point></Placemark><Placemark><name>33</name><Point><coordinates>-82.96246000000001,42.24998,0</coordinates></Point></Placemark><Placemark><name>34</name><Point><coordinates>-82.96246000000001,42.24998,0</coordinates></Point></Placemark><Placemark><name>35</name><Point><coordinates>-82.96246000000001,42.24998,0</coordinates></Point></Placemark><Placemark><name>36</name><Point><coordinates>-82.96246000000001,42.24998,0</coordinates></Point></Placemark><Placemark><name>37</name><Point><coordinates>-82.7506,42.99392,0</coordinates></Point></Placemark><Placemark><name>38</name><Point><coordinates>-82.7506,42.99392,0</coordinates></Point></Placemark><Placemark><name>39</name><Point><coordinates>-82.7506,42.99392,0</coordinates></Point></Placemark><Placemark><name>40</name><Point><coordinates>-82.7506,42.99392,0</coordinates></Point></Placemark><Placemark><name>41</name><Point><coordinates>-82.76244000000001,42.99692,0</coordinates></Point></Placemark><Placemark><name>42</name><Point><coordinates>-82.7506,42.99392,0</coordinates></Point></Placemark><Placemark><name>43</name><Point><coordinates>-82.7506,42.99392,0</coordinates></Point></Placemark><Placemark><name>44</name><Point><coordinates>-82.7506,42.99392,0</coordinates></Point></Placemark><Placemark><name>45</name><Point><coordinates>-81.4423,45.09985,0</coordinates></Point></Placemark><Placemark><name>46</name><Point><coordinates>-79.64197,45.09875,0</coordinates></Point></Placemark><Placemark><name>47</name><Point><coordinates>-79.63422000000001,45.081030000000005,0</coordinates></Point></Placemark><Placemark><name>48</name><Point><coordinates>-79.64197,45.09875,0</coordinates></Point></Placemark><Placemark><name>49</name><Point><coordinates>-79.64197,45.09875,0</coordinates></Point></Placemark><Placemark><name>50</name><Point><coordinates>-79.64197,45.09875,0</coordinates></Point></Placemark><Placemark><name>51</name><Point><coordinates>-78.26628000000001,44.97464,0</coordinates></Point></Placemark><Placemark><name>52</name><Point><coordinates>-79.64197,45.09875,0</coordinates></Point></Placemark><Placemark><name>53</name><Point><coordinates>-79.64197,45.09875,0</coordinates></Point></Placemark><Placemark><name>54</name><Point><coordinates>-78.26628000000001,44.97464,0</coordinates></Point></Placemark><Placemark><name>55</name><Point><coordinates>-78.29666,44.945100000000004,0</coordinates></Point></Placemark><Placemark><name>56</name><Point><coordinates>-78.29666,44.945100000000004,0</coordinates></Point></Placemark><Placemark><name>57</name><Point><coordinates>-75.9414,44.37688000000001,0</coordinates></Point></Placemark><Placemark><name>58</name><Point><coordinates>-75.73676,44.39658,0</coordinates></Point></Placemark><Placemark><name>59</name><Point><coordinates>-75.76266000000001,44.3714,0</coordinates></Point></Placemark><Placemark><name>60</name><Point><coordinates>-75.73676,44.39658,0</coordinates></Point></Placemark><Placemark><name>61</name><Point><coordinates>-75.72767,44.403940000000006,0</coordinates></Point></Placemark><Placemark><name>62</name><Point><coordinates>-75.73676,44.39658,0</coordinates></Point></Placemark><Placemark><name>63</name><Point><coordinates>-75.51476000000001,44.25321,0</coordinates></Point></Placemark><Placemark><name>64</name><Point><coordinates>-75.50686,44.25361,0</coordinates></Point></Placemark><Placemark><name>65</name><Point><coordinates>-75.08046,43.66058,0</coordinates></Point></Placemark><Placemark><name>66</name><Point><coordinates>-74.63893,43.382810000000006,0</coordinates></Point></Placemark><Placemark><name>67</name><Point><coordinates>-74.63893,43.382810000000006,0</coordinates></Point></Placemark><Placemark><name>68</name><Point><coordinates>-74.474,42.89867,0</coordinates></Point></Placemark><Placemark><name>69</name><Point><coordinates>-74.42660000000001,42.761070000000004,0</coordinates></Point></Placemark>
+				</Folder>
+	</Document>
+	</kml>
