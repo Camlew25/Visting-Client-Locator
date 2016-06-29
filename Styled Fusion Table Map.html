@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styled Fusion Table Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+      var map;
+      var coachMePlus = {lat: 42.895867, lng: -78.869330};
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: coachMePlus,
+          zoom: 6
+        });
+	
+	var marker = new google.maps.Marker(
+		{position: coachMePlus, map: map, title: "CoachMePlus"});
+	
+	var infowindow = new google.maps.InfoWindow(
+		{ content: "CoachMePlus is the center"});
+	
+	marker.addListener('click', function(){ infowindow.open(map, marker);})
+
+	var powerLayer = new google.maps.FusionTablesLayer({ query:{ select: "LATITUDE", from:'1o9vIDSxs6AxJRstokd6DmwvPj0_c5Zw2wCnDfPAJ', where: "'MTW Status' = 'Matching' AND 'GROUP' IN ('1','2','3','4','5','6','7')"}, styles:
+[{ where: "'GROUP' IN('1')", markerOptions: {iconName:"rec_parking_lot"}},
+ { where: "'GROUP' IN('2')", markerOptions: {iconName:"large_green"}},
+ { where: "'GROUP' IN('3')", markerOptions: {iconName:"large_yellow"}},
+ { where: "'GROUP' IN('4')", markerOptions: {iconName:"large_blue"}},
+ { where: "'GROUP' IN('5')", markerOptions: {iconName:"rec_lodging"}}]});
+ //{ where: "'GROUP' IN('6')", markerOptions: {iconName:"large_green"}},
+ //{ where: "'GROUP' IN('7')", markerOptions: {iconName:"large_green"}}]});
+	
+powerLayer.setMap(map);
+	}
+	
+	
+	
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmtDTGroz9uJrGANGf9HV8kbGtfx-at_k&callback=initMap"
+    async defer></script>
+  </body>
+</html>
